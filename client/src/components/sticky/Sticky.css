@@ -1,0 +1,134 @@
+.Icon {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 40%;
+  right: 20px;
+}
+.icon-svg {
+  margin-bottom: 6px;
+  border-radius: 50%;
+  color: #fcfefe;
+  padding: 15px;
+  cursor: pointer;
+}
+.bi-cursor {
+  background-color: #fda624;
+}
+.bi-line {
+  background: linear-gradient(180deg, #5dbb86 42%, #2bb12b 80%);
+}
+.bi-messenger {
+  background-color: #0184fc;
+  -webkit-animation: jump 1s ease 0s infinite normal;
+  -moz-animation: jump 1s ease 0s infinite normal;
+  -ms-animation: jump 1s ease 0s infinite normal;
+  animation: jump 1s ease 0s infinite normal;
+}
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+  80% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.bi-telephone-forward-fill {
+  background-color: #ff443e;
+  -webkit-box-shadow:0px 0px 10px 10px #d74242 ;
+-moz-box-shadow:0px 0px 50px 30px #d74242 ;
+box-shadow:0px 0px 5px 5px #d74242 ;
+  -webkit-animation: shake 1s ease 0s infinite normal;
+  -moz-animation: shake 1s ease 0s infinite normal;
+  -ms-animation: shake 1s ease 0s infinite normal;
+  animation: shake 1s ease 0s infinite normal;
+}
+@keyframes shake {
+  0% {
+    transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+  }
+  2% {
+    transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+  }
+  4% {
+    transform: rotate(-18deg);
+    -ms-transform: rotate(-18deg);
+  }
+  6% {
+    transform: rotate(18deg);
+    -ms-transform: rotate(18deg);
+  }
+  8% {
+    transform: rotate(-22deg);
+    -ms-transform: rotate(-22deg);
+  }
+  10% {
+    transform: rotate(22deg);
+    -ms-transform: rotate(22deg);
+  }
+  12% {
+    transform: rotate(-18deg);
+    -ms-transform: rotate(-18deg);
+  }
+  14% {
+    transform: rotate(18deg);
+    -ms-transform: rotate(-18deg);
+  }
+  16% {
+    transform: rotate(-12deg);
+    -ms-transform: rotate(-12deg);
+  }
+  18% {
+    transform: rotate(-12deg);
+    -ms-transform: rotate(-12deg);
+  }
+  20% {
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+  }
+}
+.bi-tiktok {
+  background-color: #333;
+}
+.To-top {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  bottom: 95px;
+  right: 40px;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  background-color:#e53939;
+  border-radius: 5px;
+  border: 1px #fda624 solid;
+}
+.To-top:active {
+  border: 1px #0184fc solid;
+
+}
+.Top-text {
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bi-chevron-double-up {
+  color: #5dbb86;
+}

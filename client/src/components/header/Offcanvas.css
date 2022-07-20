@@ -1,0 +1,65 @@
+:root {
+    --green-color : red;
+    --xam-color : #e5e5e5;
+    --xanhduong-1 : #109aa7;
+    --xanhduong-2 :#3ca4ab;
+    --vang : #fdbd27;
+    --xam-1 :#4b4e4d;
+    }
+.small-width {
+    display: flex;
+    justify-content: space-between;
+}
+.small-width-right {
+    align-items: center;
+    align-self: center;
+}
+.small-a-img-01 {
+    width: 50px;
+    height:50px;
+}
+.small-a-link-01 {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--xanhduong-1);
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.small-a-link-01:hover {
+    color: var(--xanhduong-2);
+    opacity: 0.9;
+}
+.a-logo-header {
+    display: flex;
+}
+.a-logo-header img {
+    width: 50px;
+    height: 50px;
+}
+.a-navbar-near-logo-1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: start;
+}
+.a-tabcontent {
+    text-decoration: none;
+    font-size: 21px;
+    padding: 10px;
+    color: #4b4e4d;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+
+
+}
+.a-tabcontent:hover {
+    background-color: var(--vang)  ;
+    color: #fff;
+}
+.sign-in {
+}
+.sign-up {
+    margin-top: -15px;
+}

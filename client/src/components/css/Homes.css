@@ -1,0 +1,126 @@
+:root {
+    --green-color : red;
+    --xam-color : #e5e5e5;
+    --xanhduong-1 : #109aa7;
+    --xanhduong-2 :#3ca4ab;
+    --vang : #fdbd27;
+    --xam-1 :#4b4e4d;
+    --xam-2 : #e0e0e0;
+}
+.header-home {
+    display: flex;
+    justify-content: space-between;
+}
+.news-home {
+    
+    width: 75%;
+    border: 1px solid var(--xanhduong-1);
+    
+}
+.home-header {
+    background-color: var(--xanhduong-2);
+    color: #fff;
+    height: 35px;
+    padding: 3px;
+}
+.search-home {
+    width: 20%;
+    border: 1px solid var(--xanhduong-1);
+    padding: 3px;
+    text-align: center;
+}
+.news-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+.news-containerleft {
+    margin-left: 5px;
+    width: 70%;
+}
+.news-containerright {
+    width: 39%;
+    border: 1px solid var(--xam-2);
+}
+
+.home-carousel {
+    height: auto;
+    padding-bottom: 5px;
+    border: 1px solid var(--xam-2);
+    padding: 5px ;
+    margin-bottom: 3px;
+}
+.w-40 {
+    height: 500px;
+}
+.list-home-image {
+    
+    width: 250px;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid var(--xam-2);
+    margin: 4px;
+
+
+}
+.under-news-image {
+    display: flex;
+    border: 1px solid var(--xam-2);
+    /* padding: 2px;
+    margin: 3px; */
+    justify-content: space-around;
+    
+}
+.list-home-image h6 {
+    padding: 4px 10px 4px 10px;
+}
+.list-group-flush {
+    font-size: 14.5px;
+    font-weight: 500;
+}
+.jobs-home {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    height: auto;
+
+}
+.job {
+    border: 1px solid var(--xanhduong-1);
+}
+.jobs-1 {
+    width: 35%;
+}
+.jobs-2 {
+    width: 35%;
+}
+.jobs-3 {
+    width: 20%;
+}
+.jobs-container-body {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--xam-2);
+    margin: 3px;
+}
+.jobs-container-body img {
+    width: 50px;
+    height: 50px;
+}
+.jobs-3-1 {
+    text-align: center;
+}
+.list-job-3 {
+    border : 1px solid red;
+    margin: 3px;
+}
+.jobs-3-2 {
+    /* height: 500px; */
+    align-items: center;
+    text-align: center;
+    border: 1px solid var(--xanhduong-1) ;
+}
+.jobs-3-2-ex {
+    border: 1px solid var(--xanhduong-1) ;
+
+}

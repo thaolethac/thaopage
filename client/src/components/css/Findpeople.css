@@ -1,0 +1,74 @@
+:root {
+    --green-color : red;
+    --xam-color : #e5e5e5;
+    --xanhduong-1 : #109aa7;
+    --xanhduong-2 :#3ca4ab;
+    --vang : #fdbd27;
+    --xam-1 :#4b4e4d;
+    --xam-2 : #e0e0e0;
+}
+/* RIGHT */
+
+.right {
+    width: 50%;
+    height: auto;
+    border: 1px var(--xanhduong-2) solid;
+    
+}
+.findpeople {
+    display: flex;
+    justify-content: space-between;
+}
+.findpeople-body {
+    align-items: center;
+}
+.findpeople-body-component {
+    border: 1px var(--xam-2) solid;
+    display: flex;
+    margin: 3px;
+    width: 90%;
+    height: auto;
+}
+.findpeople-body-component img {
+    height: 70px;
+    width: 70px;
+    align-self: center;
+    padding: 8px;
+}
+.findpeople-body-component CARD {
+    border: none;
+}
+
+/* LEFT */
+.left {
+    text-align: center;
+    width: 20%;
+    height: auto;
+    border: 1px var(--xanhduong-2) solid;
+    color: #808282;
+}
+.left ul li {
+    /* padding-right: 40px; */
+    height: 50px;
+    width: 100%;
+    list-style-type: none;
+    border: #109aa7;
+}
+.left .inputt {
+    float: left;
+    width: 100%; 
+    height: 40px;  
+    /* border: 2px var(--xanhduong-2) solid; */
+}
+.left button {
+    background-color: var(--xanhduong-2);
+    align-self: center;
+    border: none;
+    cursor: pointer;
+}
+.left .list-findpeople {
+    padding: 4px;
+}
+.left section {
+    padding-top: 0px;
+}

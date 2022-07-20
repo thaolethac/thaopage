@@ -1,0 +1,21 @@
+
+.button-connect-true {
+    position: fixed;
+    border-radius: 15px;
+    bottom: 40px;
+    left:-100%;
+    z-index: 1000;
+    animation: mymove 10s 1;
+}
+@keyframes mymove {
+    0% {
+        left: -100%;
+    }
+    30% {
+        left: 20px;
+    }
+    100% {
+        left: -100%;
+    }
+
+  }

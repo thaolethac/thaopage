@@ -1,0 +1,139 @@
+:root {
+  --green-color: red;
+  --xam-color: #e5e5e5;
+  --xanhduong-1: #109aa7;
+  --xanhduong-2: #3ca4ab;
+  --vang: #fdbd27;
+  --xam-1: #4b4e4d;
+}
+.Container-news {
+  height: auto;
+}
+.header-news {
+  height: auto;
+  border: 1px var(--xanhduong-2) solid;
+}
+
+.footer-news {
+  display: flex;
+  justify-content: space-between;
+}
+.container-header {
+  display: flex;
+}
+.header-news-list {
+  border: 1px var(--xam-2) solid;
+  display: flex;
+  margin: 3px;
+  width: 90%;
+  height: 150px;
+  padding: 5px;
+  cursor: pointer;
+}
+.header-news-list img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+}
+.header-news-in-left img {
+  width: 60%;
+}
+.header-news-in-right {
+  height: 900px;
+  width: 50%;
+  overflow-x: scroll;
+  border: 1px var(--xam-2) solid;
+  margin: 6px;
+}
+.cardtitle {
+  font-size: 16px;
+}
+.header-news-in-left {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.div-img-news {
+  cursor: pointer;
+  height: 900px;
+  width: 90%;
+  height: 50%;
+  border: 1px var(--xam-2) solid;
+  margin: 10px;
+}
+.title-news {
+  cursor: pointer;
+  height: 40%;
+  width: 70%;
+  padding: 5px;
+}
+.title-news h3 {
+  color: #ff443e;
+}
+.title-news p {
+  color: #333;
+  font-weight: bold;
+}
+.body-container-news {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  height: auto;
+}
+
+.footer-container-news {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.body-news {
+  width: 48%;
+  height: 100%;
+  border: 1px var(--xam-2) solid;
+  margin: 3px;
+  padding: 3px;
+}
+.body-news-top img {
+  width: 50%;
+  height: 50%;
+  cursor: pointer;
+  border: 1px var(--xam-2) solid;
+  margin: 3px;
+  padding: 3px;
+}
+.footer-news {
+  width: 48%;
+  height: 100%;
+  border: 1px var(--xam-2) solid;
+  margin: 3px;
+  padding: 3px;
+}
+.footer-news-top img {
+  width: 50%;
+  height: 50%;
+  cursor: pointer;
+  border: 1px var(--xam-2) solid;
+  margin: 3px;
+  padding: 3px;
+}
+.body-news-img1 {
+  width: 99%;
+  height: 50%;
+}
+.body-news-img1 img {
+  width: 50%;
+  height: 200px;
+}
+.footer-news-img1 {
+  width: 99%;
+  height: 52%;
+}
+.footer-news-img1 img {
+  width: 50%;
+  height: 200px;
+}
+.text-news {
+  color: #333;
+  line-height: 25px;
+}
