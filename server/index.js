@@ -5,21 +5,24 @@ const mongoose = require("mongoose");
 const route = require("./routes");
 var cors = require('cors');
 const db = require("./config/db");
-async function connect() {
-  try {
-    await mongoose.connect("mongodb://localhost/Mern");
-    console.log("Connect successfully");
-  } catch (error) {
-    console.log("Connect failure!!!");
-  }
-}
+require('dotenv').config()
+
+
 db.connect();
-module.exports = { connect };
 const app = express();
 app.use(cors())
 app.use(express.json())
 
 route(app) // route init
 
-const PORT = 3000;
-app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
+
+
+app.set('port', (process.env.PORT || 8000));
+
+//For avoidong Heroku $PORT error
+app.get('/', function(request, response) {
+    var result = 'App is running'
+    response.send(result);
+}).listen(app.get('port'), function() {
+    console.log('App is running, server is listening on port ', app.get('port'));
+});
